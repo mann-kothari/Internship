@@ -42,11 +42,11 @@ html,body{
     font-size: 4vw;
 }
 .text .image{
-    /* background-image: url(https://images.unsplash.com/photo-1706984499168-9425d60e6df7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D); */
     background-size: cover;
     background-position: center;
     height: 300px;
     width: 200px;
+    border-radius: 50%;
 }
 .rtext{
     display: flex;
@@ -112,6 +112,7 @@ html,body{
     width: 100%;
     min-height: 20vh;
     background-color: rgba(255, 255, 255, 0.344);
+    text-align: center;
 }
 .b3{
     width: 40%;
@@ -186,5 +187,8 @@ html,body{
 }
 
 .plane{
-
+    border-radius: 50px;
+}
+img{
+    border-radius: 700px;
 }
